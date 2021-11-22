@@ -7,18 +7,41 @@ body {
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 10px 50px;
 }
+
+.header img {
+    max-width: 40px;
+    max-height: 40px;
+    align-self: center;
+}
+
+.logo-and-text {
+    display: flex;
+    gap: 15px;
+}
+
+.logo-and-text p {
+    color: #e5e7eb;
+    font-weight: bolder;
+    font-size: large;
+}
+
 ul {
     font-size: 18px;
     list-style-type: none;
-    gap: 1em;
+    gap: 0.5em;
     display: flex;
  }
 
  a {
      color: #e5e7eb;
      text-decoration: none;
+     padding: 15px;
+ }
+
+ a:hover {
+     color: #3882f6;
  }
 
  .title-card {
@@ -26,7 +49,8 @@ ul {
      background-color: #1f2937;
      justify-content: center;
      align-items: center;
-     padding: 75px;
+     padding: 75px 300px 100px;
+     gap: 50px;
  }
 
  .title-text h1 {
@@ -63,7 +87,7 @@ ul {
  .image-row {
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-self: center;
      padding: 30px 300px 75px 300px;
      gap: 50px;
  }
@@ -71,10 +95,14 @@ ul {
  .image-row img {
      border-color: #3882f6;
      border-radius: 6px;
+     border-width: 2px;
+     border-style: solid;
+     max-width: 200px;
  }
  .image-row p {
-    font-size: 18px;
-    color: #e5e7eb;
+    font-size: 16px;
+    color: #1f2937;
+    font-weight: 300;
  }
 
 .quote-card {
@@ -139,6 +167,12 @@ ul {
      border-width: 1px;
      border-color: #e5e7e5;
      font-weight: 600;
+}
+
+button:hover {
+    color: #3882f6;
+    background-color: #e5e7e5;
+
 }
 
 .footer {
